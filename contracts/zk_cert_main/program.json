@@ -1,0 +1,7 @@
+{
+  "program": "zk_cert_main.aleo",
+  "version": "1.0.0",
+  "description": "ZK-Cert main certificate management program",
+  "license": "MIT",
+  "dependencies": []
+}
