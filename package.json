@@ -8,7 +8,8 @@
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
-    "deploy-contract": "bash deploy-contract.sh"
+    "deploy-contract": "bash deploy-contract.sh",
+    "postinstall": "echo 'Dependencies installed successfully!'"
   },
   "dependencies": {
     "@demox-labs/aleo-wallet-adapter-base": "^0.0.23",

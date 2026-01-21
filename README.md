@@ -78,11 +78,16 @@ ZK-Cert is a privacy-first certificate system where:
 ### Install & Run
 
 ```bash
+# Install dependencies (uses legacy-peer-deps automatically via .npmrc)
 npm install
+
+# Start development server
 npm run dev
 ```
 
-Create `.env.local` (example below):
+**Note**: The project uses React 19, but wallet adapters require React 18. The `.npmrc` file automatically handles this with `legacy-peer-deps=true`.
+
+Create `.env.local` (copy from `.env.local.example`):
 
 ```env
 NEXT_PUBLIC_ZK_CERT_PROGRAM_ID=zk_cert_main_9842.aleo
